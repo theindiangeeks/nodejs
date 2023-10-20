@@ -1,0 +1,1 @@
+//random quote generator and displaying it to the website 

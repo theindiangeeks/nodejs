@@ -1,0 +1,22 @@
+{
+  "name": "revision",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "enquoraging": "^1.4.0",
+    "lodash": "^4.17.21",
+    "motivation": "^1.0.3"
+  }
+  {
+
+    "type": "module"
+  
+  }
+}
