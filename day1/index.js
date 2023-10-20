@@ -6,4 +6,5 @@ if (name < 10){
 
 }else{
     console.log("OK");
+    console.log("HEY");
 }
