@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <%=name%>
+    
+    <form
+    action='http://localhost:8000/upload' 
+    method='post' 
+    encType="multipart/form-data">
+        <input type="file" name="sampleFile" >
+        togrey
+        <input type="checkbox" name="grey">
+        toblur
+        <input type="checkbox" name="blur">
+        <input type="submit">
+
+
+    </form>
+    
+</body>
+</html>

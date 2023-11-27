@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <%=date%>
+    <form action="/" method="POST">
+        
+    <input type="text" name="todos" id="">
+    <input type="submit">
+</form>
+<ul>
+    <li>
+        eat
+    </li>
+    <li>
+        drink
+    </li>
+    <li>
+        sleep
+    </li>
+
+<% for(i=0; i<items.length ; i++){ %>
+  <li> <%= items[i] %> </>
+  <%   } %> 
+  <% console.log('d') %>
+  
+    
+</ul>
+    
+</body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+  <body>
+    <form ref='uploadForm' 
+      id='uploadForm' 
+      action='http://localhost:8000/upload' 
+      method='post' 
+      encType="multipart/form-data">
+        <input type="file" name="sampleFile" accept="image/*" >
+        GREY
+        <input type="checkbox" name="isblur">
+      blur
+        <input type="checkbox" name="isgrey">
+        <input type='submit' value='Upload!' />
+    </form>   
+    <h3> BEFORE </h3>  
+    <img src="<%=sample%>" alt="" height="500px" width="500px">
+    <h3> AFTER</h3>
+    <img src="edit<%=sample%>" alt="" > 
+  </body>
+</html>
